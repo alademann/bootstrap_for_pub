@@ -1,0 +1,14 @@
+targets:
+  $default:
+#    sources:
+#      include:
+#        - "lib/sass/**"
+    builders:
+      sass_builder:
+#        generate_for:
+#          include:
+#            - "sass/**/*.scss"
+#          exclude:
+#            - "sass/**/*_.scss"
+        options:
+          outputStyle: compressed
